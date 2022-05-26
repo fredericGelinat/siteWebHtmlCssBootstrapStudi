@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2E7DC;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav .btn-outline-primary{
+    color: #00458F;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    font-family: 'Koulen', cursive;
+    font-size: 55px;
+}
+
+
+h2 span {
+    font-family: 'Koulen', cursive;
+
+}
+h2{
+    color: #3D3D3D;
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;
+
+}
+.textIntro{
+    margin-top: 2%;
+    max-width: 50%;
+    min-width: 300px;
+    border: 0.5px solid #027373; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textIntro  span a {
+color: #027373;
+font-weight: 800;
+}
+.textIntro  p{
+    /* font-size: 1rem; */
+    display: flex;
+    justify-content: center;
+}
+
+/* espace blanc entre les balise a*/
+
+.white-space{
+
+}
+.btnCenter {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.btn-secondary{
+    margin: 1%;
+}
